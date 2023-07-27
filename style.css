@@ -1,0 +1,187 @@
+body {
+    background-color: #E8D5AF;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*TITLE*/
+.header {
+    background-color: #d03711;
+    color: #FFD700;    
+    
+    text-align: center;
+}
+.header a {
+    text-decoration: none; /* Remove default underline from the link */
+    color: #FFD700; /* Set link text color */
+}
+
+.title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFD700;
+    font-family: "Cinzel Decorative";
+    font-size: 100px;
+    /*text-align: center;*/
+    
+    text-shadow: 5px black;
+    -webkit-text-stroke: 3px black; /* For Safari support */
+    margin: 0;
+    text-decoration: none;
+} 
+
+/*navigations*/
+
+
+/* NAVIGATION */
+.navigation {
+    background-color: #d03711;
+    margin-top: 0; /* Add this line to remove the margin-top */
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+}
+
+/* Remove the default margin from ul */
+.navigation ul {
+    list-style-type: none;
+    margin: 0; /* Set margin to 0 to remove the default margin */
+    padding: 0;
+    overflow: hidden;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;     
+    /*
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    */  
+}
+
+  
+  li {
+    float: left;
+
+  }
+  
+  li a {
+    display: block;
+    color:#FFD700;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #af2300;
+  }
+
+
+.content{
+    background-color: white;
+    width: 1098px;
+    height: 846px;
+    margin: auto;
+    padding: 20px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.content-front{
+    /*background-color: #00eaff;*/
+    width: 900px;
+    height: 846px;
+    margin: auto;
+    padding: 10px;
+    flex-shrink: 0;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+}
+
+
+
+.box{
+    height: 283px;
+    width: 900px;
+    border-radius: 50px;
+    border: 3px solid #000;
+    background-color: #FEFCFC;
+    margin-top: 30px;
+    text-decoration: none;
+
+}
+
+.box:hover{
+    background-color: #9e9999;
+    color: white;
+
+}
+
+
+.box-title{
+    width: 786px;
+    color: #000;
+    font-family: Arial;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 30px;
+    margin-bottom: 0;
+
+
+}
+
+.box-sub{
+    width: 775px;
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 5px;
+    margin-left: 20px;
+
+}
+
+.box-date {
+    font-size: 1.125rem;
+    font-style: italic;
+    margin-top: 0;
+    color: #6c757d;
+    margin-top: 0;
+    margin-left: 20px;
+
+
+  }
+
+
+.content p{
+    padding: 20px;
+}
+
+
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+}
