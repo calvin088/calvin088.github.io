@@ -87,20 +87,19 @@ ul {
 .content{
     background-color: white;
     width: 1098px;
-    height: 846px;
     margin: auto;
     padding: 20px;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    border-radius: 50px;
+    /*align-items: center;*/
 }
 
 
 .content-front{
     /*background-color: #00eaff;*/
     width: 900px;
-    height: 846px;
     margin: auto;
     padding: 10px;
     flex-shrink: 0;
@@ -169,10 +168,33 @@ ul {
 
 
 .content p{
-    padding: 20px;
+    padding: 10px 0 px; /* Reduce the top and bottom padding */
 }
 
+.picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+/* Mobile responsive styles*/
+@media (max-width: 768px) {
+    .content {
+        width: 100%;
+    }
+
+    .content-front{
+        width: 100%;
+    }
+    
+    .box {
+        width: 100%;
+    }
+    
+    .title {
+        font-size: 60px;
+    }
+}
 
 
 main {
@@ -185,3 +207,5 @@ footer {
     margin-top: 40px;
     color: #777;
 }
+
+
