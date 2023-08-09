@@ -15,8 +15,8 @@ body {
     text-align: center;
 }
 .header a {
-    text-decoration: none; /* Remove default underline from the link */
-    color: #FFD700; /* Set link text color */
+    text-decoration: none; 
+    color: #FFD700; 
 }
 
 .title {
@@ -25,10 +25,9 @@ body {
     color: #FFD700;
     font-family: "Cinzel Decorative";
     font-size: 100px;
-    /*text-align: center;*/
     
     text-shadow: 5px black;
-    -webkit-text-stroke: 3px black; /* For Safari support */
+    -webkit-text-stroke: 3px black; 
     margin: 0;
     text-decoration: none;
 } 
@@ -39,7 +38,7 @@ body {
 /* NAVIGATION */
 .navigation {
     background-color: #d03711;
-    margin-top: 0; /* Add this line to remove the margin-top */
+    margin-top: 0; 
     box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     justify-content: center;
@@ -48,7 +47,7 @@ body {
 /* Remove the default margin from ul */
 .navigation ul {
     list-style-type: none;
-    margin: 0; /* Set margin to 0 to remove the default margin */
+    margin: 0; 
     padding: 0;
     overflow: hidden;
 
@@ -58,10 +57,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;     
-    /*
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    */  
+
 }
 
   
@@ -78,7 +74,6 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #af2300;
   }
@@ -93,12 +88,10 @@ ul {
     display: flex;
     flex-direction: column;
     border-radius: 50px;
-    /*align-items: center;*/
 }
 
 
 .content-front{
-    /*background-color: #00eaff;*/
     width: 900px;
     margin: auto;
     padding: 10px;
@@ -170,7 +163,7 @@ ul {
 
 
 .content p{
-    padding: 10px 0 px; /* Reduce the top and bottom padding */
+    padding: 10px 0 px; 
 }
 
 .picture {
@@ -196,8 +189,8 @@ ul {
     
     .box {
         width: 100%;
-        margin-left: 0; /* Remove the left margin for better alignment */
-        margin-right: 0; /* Remove the right margin for better alignment */
+        margin-left: 0; 
+        margin-right: 0;
         overflow: auto;
     }
 
