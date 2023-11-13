@@ -103,7 +103,11 @@ ul {
     align-items: center;*/
 }
 
-
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #0c0000; /* Example border styling */
+  }
 
 .box{
     height: 283px;
