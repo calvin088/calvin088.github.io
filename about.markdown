@@ -2,10 +2,30 @@
 layout: page
 title: About
 permalink: /about/
+description: what is this about?
+
 ---
 
-<h1 style= "margin: 30px 0;
-font-size: 4em;
-line-height: 1;
-letter-spacing: -1px;
-text-align: center;" >404</h1>
+<div>
+    <p>Welcome to "Truth To Light" - a place where I share about the Catholic faith, college life, and anything that holds significance for people. 
+        I'm Calvin, and I couldn't be more excited to have you here.</p>
+    <p>As a passionate Catholic, I graduated college with a Bachelor's degree in Biology and Computer Science, and
+         I'm proud to be one of the co-founders of the Catholic club in my school.</p>
+    <p>College has had a profound impact on my faith, and now I'm here to share what 
+        I've learned. I'll provide tips, opinions, and thoughts on navigating college 
+        life.Meanwhile, I'll also delve into various media forms to discuss what it means 
+        to be Catholic,offer catechesis, and explore other related topics. 
+        This blog serves also as a  tool for me to learn more about computer science 
+        and how to Code. (so please excuse the mess here).</p>
+    <p>The reason I named this Blog truth to Light is that I firmly believe in the power of truth 
+        will set us free, to see the light and the world clearly.  Just like in Plato's "Allegory 
+        of the Cave," where prisoners could only see shadows until one of them was set free, discovered 
+        the source of the light, and saw the truth. His ignorance was dispelled, and he embarked on a journey 
+        of enlightenment. In the end, he chose to return to the cave to share what he had learned.</p>
+    <!--write about john 3:21-->
+    <p>Although I may not be a theologian, preacher, coach, leader, teacher, or an expert, 
+        I hope that through this blog, I can share what I believe to be the truth and journey 
+        towards the light together.</p>
+    <p>Thank you for joining me on this path of discovery and enlightenment. 
+        Let's uncover the truth and find our way to the light together.</p>
+</div>
