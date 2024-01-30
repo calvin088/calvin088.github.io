@@ -6,6 +6,8 @@ description: what is this about?
 
 ---
 
+{% include cssheader.html %}
+
 <div>
     <p>Welcome to "Truth To Light" - a place where I share about the Catholic faith, college life, and anything that holds significance for people. 
         I'm Calvin, and I couldn't be more excited to have you here.</p>

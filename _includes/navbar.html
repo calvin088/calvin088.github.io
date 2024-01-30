@@ -1,0 +1,55 @@
+<!-- Navigation -->
+<style>
+/* this is for full screen */
+#mainNav .navbar-brand {
+    padding: 10px 20px;
+    font-family: "Cinzel Decorative";
+    color: #FFD700;
+}
+  #mainNav .navbar-nav > li.nav-item > a {
+    padding: 10px 20px;
+    font-family: "Cinzel Decorative";
+    color: #FFD700;
+}
+
+#mainNav {
+    position: absolute;
+    border-bottom: 1px solid #9e5647;
+    background-color: #c76e5c;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    font-weight: 800;
+    padding: 13px;
+    text-transform: uppercase;
+    color: #FFD700;
+}
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="{{"/" | relative_url }}">{{ site.title | escape }}</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="{{"/" | relative_url }}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{"/about" | relative_url }}">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ "/posts" | relative_url }}">Prayers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{"/contact" | relative_url }}">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
